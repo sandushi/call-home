@@ -38,8 +38,8 @@
     <properties>
         <org.apache.httpcomponents.httpclient>4.5.13</org.apache.httpcomponents.httpclient>
         <org.apache.httpcomponents.httpcore>4.4.13</org.apache.httpcomponents.httpcore>
-        <org.yaml.snakeyaml>2.0</org.yaml.snakeyaml>
         <com.google.code.gson.gson>2.8.9</com.google.code.gson.gson>
+        <orbit.version.snakeyaml>2.0.0.wso2v1</orbit.version.snakeyaml>
     </properties>
 
     <dependencies>
@@ -54,9 +54,9 @@
             <version>${org.apache.httpcomponents.httpcore}</version>
         </dependency>
         <dependency>
-            <groupId>org.yaml</groupId>
+            <groupId>org.wso2.orbit.org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
-            <version>${org.yaml.snakeyaml}</version>
+            <version>${orbit.version.snakeyaml}</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
